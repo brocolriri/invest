@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+#globalnav {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#globalnav *, #globalnav *:before, #globalnav *:after {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+    padding: 1%;
+}
+
+a { 
+    color: azure;
+}
+
+a:hover {
+    color: aqua;
+}

@@ -10,21 +10,28 @@ body {
     margin: 0;
 }
 
-ul {
+#globalnav .nav-list {
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
-li {
-    display: inline-block;
+@media only screen and (max-width:833px) {
+    #globalnav .nav-list {
+        display: block;
+    }
+}
+
+#globalnav .nav-list li {
+    display: block;
     padding: 1%;
 }
 
-a { 
+#globalnav .nav-list .nav-link { 
     color: azure;
+    text-decoration: none;
 }
 
-a:hover {
+#globalnav .nav-list .nav-link:hover {
     color: aqua;
 }

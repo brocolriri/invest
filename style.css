@@ -17,8 +17,17 @@ body {
 }
 
 @media only screen and (max-width:833px) {
+    body {
+        height: 100vh;
+    }
+
+    #globalnav {
+        height: 100%;
+    }
+
     #globalnav .nav-list {
         display: block;
+        margin: 0 10%;
     }
 }
 
